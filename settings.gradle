@@ -1,5 +1,17 @@
-1. "Add file" → "Create new file" 
-2. Tên file: settings.gradle
-3. Copy nội dung từ phần trước
-4. Commit message: "Add settings.gradle"
-5. Commit new file
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "NhapLieuTram"
+include ':app'
