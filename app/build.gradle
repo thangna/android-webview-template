@@ -1,0 +1,6 @@
+1. Vào folder "app" (click vào folder app)
+2. "Add file" → "Create new file"
+3. Tên file: build.gradle
+4. Copy nội dung app/build.gradle từ phần trước
+5. Commit message: "Add app build.gradle"
+6. Commit new file
