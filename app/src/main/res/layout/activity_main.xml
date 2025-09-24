@@ -1,6 +1,35 @@
-1. Điều hướng đến: app/src/main/res/layout/
-2. "Add file" → "Create new file"
-3. Tên file: activity_main.xml
-4. Copy nội dung từ phần trước
-5. Commit message: "Add activity_main.xml"
-6. Commit new file
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:visibility="gone"
+        android:progressTint="#2E86AB" />
+
+    <!-- WebView -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Offline Message -->
+    <TextView
+        android:id="@+id/offlineMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/offline_message"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:background="#F0F0F0"
+        android:visibility="gone" />
+
+</LinearLayout>
