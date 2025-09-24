@@ -1,0 +1,6 @@
+1. Điều hướng đến: app/src/main/res/layout/
+2. "Add file" → "Create new file"
+3. Tên file: activity_main.xml
+4. Copy nội dung từ phần trước
+5. Commit message: "Add activity_main.xml"
+6. Commit new file
