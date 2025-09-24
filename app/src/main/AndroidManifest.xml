@@ -1,0 +1,6 @@
+1. Điều hướng đến: app/src/main/
+2. "Add file" → "Create new file"
+3. Tên file: AndroidManifest.xml
+4. Copy nội dung từ phần trước
+5. Commit message: "Add AndroidManifest.xml"
+6. Commit new file
