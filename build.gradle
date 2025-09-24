@@ -1,5 +1,9 @@
-1. "Add file" → "Create new file"
-2. Tên file: build.gradle
-3. Copy nội dung từ phần trước
-4. Commit message: "Add root build.gradle"
-5. Commit new file
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '8.0.0' apply false
+    id 'com.android.library' version '8.0.0' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
