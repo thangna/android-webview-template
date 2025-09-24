@@ -1,6 +1,11 @@
-1. Trong folder app/src/main/res/xml/
-2. "Add file" → "Create new file"
-3. Tên file: data_extraction_rules.xml
-4. Copy nội dung từ phần trước
-5. Commit message: "Add data extraction rules"
-6. Commit new file
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="."/>
+        <exclude domain="sharedpref" path="device.xml"/>
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="."/>
+        <exclude domain="sharedpref" path="device.xml"/>
+    </device-transfer>
+</data-extraction-rules>
