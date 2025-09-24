@@ -1,0 +1,6 @@
+1. Trong folder app/src/main/res/values/
+2. "Add file" → "Create new file"
+3. Tên file: colors.xml
+4. Copy nội dung từ phần trước
+5. Commit message: "Add colors.xml"
+6. Commit new file
