@@ -1,0 +1,6 @@
+1. Trong folder app/src/main/res/xml/
+2. "Add file" → "Create new file"
+3. Tên file: data_extraction_rules.xml
+4. Copy nội dung từ phần trước
+5. Commit message: "Add data extraction rules"
+6. Commit new file
