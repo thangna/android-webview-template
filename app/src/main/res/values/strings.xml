@@ -1,6 +1,4 @@
-1. Điều hướng đến: app/src/main/res/values/
-2. "Add file" → "Create new file"
-3. Tên file: strings.xml
-4. Copy nội dung từ phần trước
-5. Commit message: "Add strings.xml"
-6. Commit new file
+<resources>
+    <string name="app_name">Nhập Liệu Trạm</string>
+    <string name="offline_message">Mất kết nối Internet. Vui lòng kiểm tra kết nối và thử lại.</string>
+</resources>
