@@ -1,0 +1,6 @@
+1. Điều hướng đến: app/src/main/res/values/
+2. "Add file" → "Create new file"
+3. Tên file: strings.xml
+4. Copy nội dung từ phần trước
+5. Commit message: "Add strings.xml"
+6. Commit new file
